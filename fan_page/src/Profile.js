@@ -13,7 +13,7 @@ export const Profile = () =>{
         <div>
             <img src={user.picture} alt={user.name} />
             <h2>{user.name}</h2>
-            <p>Emai: {user.email}</p>
+            <p>email: {user.email}</p>
         </div>
     )
 }

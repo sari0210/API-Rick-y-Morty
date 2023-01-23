@@ -8,11 +8,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      </header>
+      <body>
+      <h1>Bienvenidos a la fan page de</h1>
+      <h1>Rick & Morty</h1>
       <LoginButton />
         <Profile />
         <LogoutButton />
-      </header>
+      </body>
     </div>
   );
 }
