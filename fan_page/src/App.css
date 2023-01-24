@@ -1,8 +1,20 @@
-body {
-  padding: 0px;
-  background-image: url(../public/img/1.jpeg);
+body{
+  padding: 50px;
+  background-image: url(../src/img/1.jpeg);
+}
+@font-face {
+  font-family: rickymorty;
+  src: url(../src/Rick-and-Morty-Font/get_schwifty.ttf);
 }
 h1{
   text-align: left;
   color: aliceblue;
 }
+p{
+  text-align: left;
+  text-shadow: 1px 1px  aliceblue ;
+  color: #38b000;
+  font-family: rickymorty;
+  font-size: 60px;
+}
+
