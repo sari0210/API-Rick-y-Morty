@@ -15,5 +15,6 @@ export const Profile = () => {
             <h2>{user.name}</h2>
             <p>email: {user.email}</p>
         </div>
-    )
-)}
+        )
+    );
+}

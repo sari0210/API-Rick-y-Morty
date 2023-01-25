@@ -1,8 +1,8 @@
 import logo from './logo.svg';
-import { LoginButton } from "./login"
-import { Profile } from './Profile';
-import { LogoutButton } from './logout';
-import './App.css';
+import { LoginButton } from "./LoginButton";
+import { Profile } from "./Profile";
+import { LogoutButton } from "./LogoutButton";
+import "./App.css";
 
 function App() {
   return (
